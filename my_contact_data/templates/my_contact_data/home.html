@@ -1,0 +1,93 @@
+{% extends 'my_contact_data/base.html' %}
+{% load static %}
+{% block stylesheets %}
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="device-width,initial-scale=1">
+	<title>First Bootstrap Project</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body style="padding-top: 70px; font-family: Arial;">
+	
+		
+	<div class="container">
+		<div class="jumbotron bg-info ">
+			<h2 class="text-body"><img src="http://pngimg.com/uploads/book/book_PNG2105.png" alt="Books" height="100" width="100"></img>Why Is Reading Important?
+				<img src="http://pngimg.com/uploads/book/book_PNG2105.png" alt="Books" height="100" width="100"></img></h2>
+			<p>Reading is fundamental to functioning in today's society.Reading is important because it develops the mind. The mind is a muscle. It needs exercise.  Reading develops the imagination. TV and computer games have their place, but they are more like amusement.  Amusement is non-thinking activities. A person who knows how to read can educate themselves in any area of life they are interested in. We live in an age where we overflow with information, but reading is the main way to take advantage of it. </p>
+			<p> Finally, why is reading important?  Reading is important because words - spoken and written - are the building blocks of life. You are, right now, the result of words that you have heard or read AND believed about yourself. What you become in the future will depend on the words you believe about yourself now. People, families, relationships, and even nations are built from words. Think about it.</p>
+		</div>	
+	</div>
+	<div class="container ">
+		<div class="row">
+		<div class="col-lg-4 ">
+			<h2 class=" font-italic" >First Novel In The History!!</h2>
+			<p>
+				In the 11th century, a Japanese woman known as Murasaki Shikibu wrote “The Tale of Genji,” a 54-chapter story of courtly seduction believed to be the world’s first novel.<br>
+Nearly 2,000 years later, people the world over are still engrossed by novels — even in an era where stories appear on handheld screens and disappear 24 hours later.<br>
+What exactly do human beings get from reading books? <br> it just a matter of pleasure, or are there benefits beyond enjoyment? <br> Scientific answer is a resounding “yes.”
+
+Reading books benefits both your physical and mental health, and those benefits can last a lifetime. They begin in early childhood and continue through the senior years. 
+			</p>
+			<p>
+				For More Bookish content find us on:-
+				<ul class="nav flex-column">
+					<li class="nav-item">
+						<a class="nav-link"href="#"><span class="fab fa-twitter-square">Twitter</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link"href="#"><span class="fab fa-instagram">Instagram</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link"href="#"><span class="fa fa-square">Book Blog</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link"href="#"><span class="fa fa-book">Goodreads</span></a>
+					</li>
+				</ul>
+			</p>
+		</div>
+		<div class ="col-lg-4   text-body">
+            <img src="{% static 'my_contact_data/books.png' %}" alt="Books" style="width:100%;height: 200px">
+
+			<h2>Find Your Favourite Genre Today!</h2>
+			<ul>
+				<li>Historic Fiction</li>
+				<li>Science Fiction</li>
+				<li>Fantasy</li>
+				<li>Contemporary</li>
+				<li>Classics</li>
+				<li>Literary Fiction</li>
+				<li>Mystery/Thrillers</li>
+				<li>Memoirs/Autobiographies</li>
+				<li>Non-Fiction</li>
+			</ul>
+            
+		</div>		
+		<div class="col-lg-4 ">
+			<h2>What Should You Be Reading?</h2>
+			<img src="https://pngimg.com/uploads/book/book_PNG2120.png" alt="Logo" height="200" width="300">
+			<p>
+                So, what should you be reading? The short answer is:<br> Whatever you can get your hands on.
+There was a time when remote regions had to rely on librarians traversing the mountains with books stuffed in saddlebags. But that’s hardly the case today. Just about everyone can access vast libraries contained in cellphones and tablets.
+
+            </p>
+	</div>
+	<div class="container">
+		<div class="copy">
+			<center>
+				<h6>&copy;2020 BooksforLife</h6>
+			</center>
+
+		</div>
+	</div>
+
+
+{% endblock %}
+ 
+{% block script %}
+{% endblock %}
